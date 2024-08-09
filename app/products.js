@@ -17,12 +17,11 @@ export default function Products() {
                             <Image source={imageMappings[item.image]} style={styles.image} />
                             <View style={styles.textContainer}>
                                 <Text style={styles.titleProduct}>{item.id}. {item.title}</Text>
-                                <Text style={styles.description}>{item.description}</Text>
                             </View>
                         </View>
                         <Link
                             href={{
-                                pathname: "/carsingle/id",
+                                pathname: "/makesingle/id",
                                 params: { id:item.id }
                             }}
                             style={styles.itemLink} // Estilo do link para ser um botão
