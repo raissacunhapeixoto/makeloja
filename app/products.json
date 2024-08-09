@@ -1,0 +1,28 @@
+{
+    "listProduct": [
+      {
+        "id": "1",
+        "title": "Paletas",
+        "description": "A supercar with impressive performance and design.",
+        "image": "paletas"
+      },
+      {
+        "id": "2",
+        "title": "Blushs e Iluminadores",
+        "description": "A high-performance luxury sports car.",
+        "image": "blush"
+      },
+      {
+        "id": "3",
+        "title": "Bases e Corretivos",
+        "description": "A high-performance luxury sports car.",
+        "image": "bases"
+      },
+      {
+        "id": "4",
+        "title": "Batons e Gloss",
+        "description": "A high-performance luxury sports car.",
+        "image": "gloss"
+      }
+    ]
+  }  
