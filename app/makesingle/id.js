@@ -4,7 +4,7 @@ import { useLocalSearchParams } from 'expo-router';
 import list from '../products.json';
 import imageMappings from '../imageMappings';
 
-export default function carSingle() {
+export default function makesingle() {
     const { id } = useLocalSearchParams();
     const data = list.listProduct.find(
         (item) => item.id === id)

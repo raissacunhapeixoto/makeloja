@@ -1,71 +1,88 @@
-
 import { Text, View, Image, Pressable, StyleSheet } from "react-native";
 import { Link } from 'expo-router';
 
 export default function Index() {
-  
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#EDB8AE'
-      }}
-    >
-
-      {/* <Text
-        style={{ fontFamily: 'Roboto-Light', fontWeight: 'bold', marginBottom: 20, marginTop: 20, color: '#EDB8AE', fontSize: 20 }}
-      >
-              Coffee With Programation
-      </Text> */}
-
-      { <Image
-        style={{
-          width: 400,
-          height: 500,
-          borderRadius: 0
-        }}
+    <View style={styles.container}>
+      <Image
+        style={styles.image}
         source={require('../assets/images/menu2.jpg')}
-      /> }
+      />
 
-      <Text
-        style={{ fontWeight: 'bold', marginBottom: 20, marginTop: 20, color: '#7D1836', fontSize: 20 }}>
-       
+      <Text style={styles.title}>
         {'Conheça nossos produtos'}
-        </Text>
-
+      </Text>
 
       <Link href="/products" style={styles.button} asChild>
-        <Pressable >
-
+        <Pressable style={styles.buttonPressable}>
           <Text style={styles.buttonText}>
-            ver catálogo            
+            ver catálogo
           </Text>
-
         </Pressable>
       </Link>
 
+      <Link href="/about2" style={styles.button} asChild>
+        <Pressable style={styles.buttonPressable}>
+          <Text style={styles.buttonText}>
+            sobre nossa loja
+          </Text>
+        </Pressable>
+      </Link>
+    
+          <Link href="/about3" style={styles.button} asChild>
+          <Pressable style={styles.buttonPressable}>
+            <Text style={styles.buttonText}>
+            marcas
+            </Text>
+          </Pressable>
+        </Link>
 
+        <Link href="/about4" style={styles.button} asChild>
+          <Pressable style={styles.buttonPressable}>
+            <Text style={styles.buttonText}>
+            entre em contato
+            </Text>
+          </Pressable>
+        </Link>
 
-    </View>
+      </View>
+
+      
   );
 }
 
 const styles = StyleSheet.create({
-
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#EDB8AE',
+  },
+  image: {
+    width: 400,
+    height: 400,
+    borderRadius: 0,
+  },
+  title: {
+    fontWeight: 'bold',
+    marginBottom: 20,
+    marginTop: 20,
+    color: '#7D1836',
+    fontSize: 20,
+  },
   button: {
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
-    margin: 20,
+    margin: 10,
     backgroundColor: '#7D1836',
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 15,
     borderRadius: 30,
-
+    width: 200, // Set a width to ensure buttons are the same size
+  },
+  buttonPressable: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   buttonText: {
     fontSize: 18,
