@@ -29,7 +29,7 @@ export default function Index() {
         </Pressable>
       </Link>
     
-          <Link href="/about3" style={styles.button} asChild>
+          <Link href="/flex" style={styles.button} asChild>
           <Pressable style={styles.buttonPressable}>
             <Text style={styles.buttonText}>
             marcas

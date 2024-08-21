@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     container: {
         flexGrow: 1,
         padding: 16,
-        backgroundColor: '#f5f5f5', // Cor de fundo
+        backgroundColor: '#EDB8AE', // Cor de fundo
     },
     image: {
         width: '100%',
@@ -66,12 +66,12 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: 16,
         textAlign: 'center',
-        color: '#333',
+        color: '#AE2A57',
     },
     section: {
         marginBottom: 24,
         padding: 16,
-        backgroundColor: '#fff',
+        backgroundColor: '#DC8691',
         borderRadius: 8,
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
@@ -83,11 +83,11 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
         marginBottom: 8,
-        color: '#007BFF', // Cor do título do tópico
+        color: '#7D1836', // Cor do título do tópico
     },
     sectionContent: {
         fontSize: 16,
         lineHeight: 24,
-        color: '#333',
+        color: '#fff',
     },
 });
