@@ -45,6 +45,15 @@ export default function Index() {
           </Pressable>
         </Link>
 
+        <Link href="/about5" style={styles.button} asChild>
+          <Pressable style={styles.buttonPressable}>
+            <Text style={styles.buttonText}>
+            lojas físicas
+            </Text>
+          </Pressable>
+        </Link>
+
+
       </View>
 
       
@@ -71,7 +80,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   button: {
-    margin: 10,
+    margin: 5,
     backgroundColor: '#7D1836',
     alignItems: 'center',
     justifyContent: 'center',

@@ -1,28 +1,28 @@
 {
-    "listProduct": [
-      {
-        "id": "1",
-        "title": "Paletas",
-        "description": "Descubra nossa seleção de paletas de maquiagem, com uma variedade de cores e texturas para todos os estilos. Desde tons neutros e elegantes até cores vibrantes e ousadas, cada paleta oferece alta pigmentação e versatilidade para criar looks incríveis em qualquer ocasião. Encontre a paleta perfeita para realçar sua beleza e expressar sua personalidade!        ",
-        "image": "paletas"
-      },
-      {
-        "id": "2",
-        "title": "Blushs e Iluminadores",
-        "description": "Realce sua beleza com nossa coleção de blushes e iluminadores! Nossos blushes oferecem cores vibrantes e naturais para um toque saudável e radiante, enquanto os iluminadores proporcionam um brilho luminoso e sofisticado para um acabamento deslumbrante. Encontre as combinações perfeitas para destacar suas maçãs do rosto e criar um glow irresistível. Explore agora e dê o toque final ao seu look!",
-        "image": "blush"
-      },
-      {
-        "id": "3",
-        "title": "Bases e Corretivos",
-        "description": "Encontre a base e o corretivo perfeitos para uma pele impecável e natural! Nossa seleção de bases oferece cobertura e acabamento que vão do leve ao total, adaptando-se a todos os tipos de pele e tons. Complemente com nossos corretivos de alta performance, ideais para disfarçar imperfeições e iluminar áreas específicas. Crie uma base uniforme e um acabamento perfeito para um visual radiante e duradouro. Explore nossas opções e descubra o segredo para uma pele de sonho!        ",
-        "image": "bases"
-      },
-      {
-        "id": "4",
-        "title": "Batons e Gloss",
-        "description": "Transforme seus lábios com nossa seleção de glosses e batons! Desde acabamentos brilhantes e hidratantes até fórmulas mate e de longa duração, oferecemos uma gama de cores e texturas para atender a todos os estilos e ocasiões. Escolha entre tons clássicos e tendências da estação para criar looks que vão do casual ao sofisticado. Encontre o produto perfeito para destacar seus lábios e deixar uma impressão inesquecível!        ",
-        "image": "gloss"
-      }
-    ]
-  }  
+  "listProduct": [
+    {
+      "id": "1",
+      "title": "Paletas",
+      "description": "Descubra nossa seleção de paletas de maquiagem, com uma variedade de cores e texturas para todos os estilos. Desde tons neutros e elegantes até cores vibrantes e ousadas, cada paleta oferece alta pigmentação e versatilidade para criar looks incríveis em qualquer ocasião. Encontre a paleta perfeita para realçar sua beleza e expressar sua personalidade!        ",
+      "image": "paletas"
+    },
+    {
+      "id": "2",
+      "title": "Blushs e Iluminadores",
+      "description": "Realce sua beleza com nossa coleção de blushes e iluminadores! Nossos blushes oferecem cores vibrantes e naturais para um toque saudável e radiante, enquanto os iluminadores proporcionam um brilho luminoso e sofisticado para um acabamento deslumbrante. Encontre as combinações perfeitas para destacar suas maçãs do rosto e criar um glow irresistível. Explore agora e dê o toque final ao seu look!",
+      "image": "blush"
+    },
+    {
+      "id": "3",
+      "title": "Bases e Corretivos",
+      "description": "Encontre a base e o corretivo perfeitos para uma pele impecável e natural! Nossa seleção de bases oferece cobertura e acabamento que vão do leve ao total, adaptando-se a todos os tipos de pele e tons. Complemente com nossos corretivos de alta performance, ideais para disfarçar imperfeições e iluminar áreas específicas. Crie uma base uniforme e um acabamento perfeito para um visual radiante e duradouro. Explore nossas opções e descubra o segredo para uma pele de sonho!        ",
+      "image": "bases"
+    },
+    {
+      "id": "4",
+      "title": "Batons e Gloss",
+      "description": "Transforme seus lábios com nossa seleção de glosses e batons! Desde acabamentos brilhantes e hidratantes até fórmulas mate e de longa duração, oferecemos uma gama de cores e texturas para atender a todos os estilos e ocasiões. Escolha entre tons clássicos e tendências da estação para criar looks que vão do casual ao sofisticado. Encontre o produto perfeito para destacar seus lábios e deixar uma impressão inesquecível!        ",
+      "image": "gloss"
+    }
+  ]
+}

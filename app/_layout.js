@@ -20,8 +20,10 @@ export default function RootLayout() {
       <Stack.Screen name="products" options={{ title: "Nossos produtos" }} />
       <Stack.Screen name="make/[id]" options={{ title: 'informações' }} />
       <Stack.Screen name="about2" options={{ title: 'um pouco sobre a gente' }} />
-      <Stack.Screen name="flex" options={{ title: 'flex' }} />
+      <Stack.Screen name="flex" options={{ title: 'Marcas' }} />
       <Stack.Screen name="about4" options={{ title: 'fale com a gente' }} />
+      <Stack.Screen name="about5" options={{ title: 'nossas lojas físicas' }} />
+
 
     </Stack>
   );
